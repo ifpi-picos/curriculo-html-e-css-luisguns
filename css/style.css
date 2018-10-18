@@ -1,19 +1,51 @@
 *{
     box-sizing: border-box;
 }
+
+body{
+    margin: 0%
+}
 header{
-    background-color: cadetblue;
+    background-color: lavender;
     padding: 15px 29px;
     width: 100%;
+}
+
+main{
+    display: inline-block;
+    width: 55%;
+    margin-right: 20%
+}
+
+.alinhar_topo{
+    vertical-align: top;
+}
+
+aside{
+    display: inline-block;
+    width: 24%;
 }
 
 .imagem_curriculo{
     max-width: 100px;
     max-height: 100px;
-    
+    display: inline-block;
+
 }
 
 .nome_curriculo{
-    text-align: end;
+    display: inline-block;
+    color: black;
 }
 
+.container_section{
+    background-color: lavender;
+}
+
+h2{
+    background-color: cornflowerblue;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-bottom: 4px black solid ; 
+}
