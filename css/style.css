@@ -107,6 +107,17 @@ section h3{
     position: relative;
 }
 
+.circle_mais_curriculo{
+    background-color: #3b8cbc;
+    border-radius: 50%;
+    border: 2px solid #2f7299;
+    padding: 2px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
 
 .circle img {
     position: absolute;
@@ -184,13 +195,36 @@ body{
     margin: 20px;
   }
    
- ul {
+ section ul {
     list-style-type: none;
     width: 500px;
   }
    
  li h3 {
     font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+  }
+
+  aside li h3{
+      font-size: 16px;
+      border: 0px;
+      margin-top: 50px;
+      text-align: start
+  }
+
+  a:link 
+{ 
+text-decoration:none; 
+}
+
+  aside li h3:hover{
+    color: #4fa6d8;
+}
+
+
+  aside ul {
+    list-style-type: none;
+    width: 500px;
+    padding-left: 0px
   }
    
   li img {
