@@ -14,16 +14,28 @@ header {
 aside h3{
     color: #3b8cbc;
     font-size: 22px;
+    text-align: center;
+    border-bottom: 2px double #3b8cbc;
+    border-radius: 15px;
+    
     
 }
 
 header p {
     text-align: center;
 }
+section{
+    background: rgb(241, 241, 241);
+    margin-top: 0px;
+    border-radius: 00px 00px 10px 10px;
+    padding: 10px 0px;
 
+}
 section p {
     text-align: start;
     margin-left: 50px;
+    margin-top: 0px;
+    font-size: 17px;
 }
 .centralizar_texto {
     text-align: center
@@ -40,6 +52,36 @@ section p {
 .nome_perfil {
     vertical-align: top;
     margin-bottom: 0%;
+}
+
+.section_formacoes{
+    width: 500px;
+    height: auto;
+    background: #FFF;
+    border-radius: 0px 50px 50px 0px;
+    border-left: 2px dashed #3b8cbc;
+    border-right: 2px dashed #3b8cbc;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding: 0%;
+}
+
+.circle_pont {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+section h3{
+    text-align: start;
+    margin-left: 50px;
+    margin-bottom: 1px;
+    color: #3b8cbc;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .imagem_perfil {
@@ -65,6 +107,7 @@ section p {
     position: relative;
 }
 
+
 .circle img {
     position: absolute;
     bottom: 0;
@@ -84,7 +127,7 @@ h1 {
     background-color: #3b8cbc;
     height: 40px;
     text-align: center;
-    border-radius: 10px 0px;
+    border-radius: 10px 10px 0px 0px;
     border-bottom: 3px solid black;
 }
 
@@ -112,14 +155,14 @@ aside {
     background-color: #fff;
     margin: 10px 0;
     border-radius: 10px 0px;
-    padding: 10px;
+    padding: 5px;
 }
 
 p {
     font-family: 'Open sans', sans-serif;
     color: #777777;
     text-align: left;
-    font-size: 19px;
+    
 }
 
 footer {
@@ -134,4 +177,35 @@ footer {
 
 body{
     margin: 6px 50px;
+    
 }
+
+.lista {
+    margin: 20px;
+  }
+   
+ ul {
+    list-style-type: none;
+    width: 500px;
+  }
+   
+ li h3 {
+    font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+  }
+   
+  li img {
+    float: left;
+    margin: 15px 15px 0 0;
+    width: 50px;
+    height: 50px;
+  }
+   
+  li p {
+    font: 200 14px/1.5 Georgia, Times New Roman, serif;
+  }
+   
+  li {
+    padding: 10px;
+    overflow: auto;
+  }
+   
